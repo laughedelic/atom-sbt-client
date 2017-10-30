@@ -10,9 +10,6 @@
   "engines": {
     "atom": ">=1.21.0 <2.0.0"
   },
-  "activationCommands": {
-     "atom-workspace": "atom-sbt-client:toggle"
-   },
   "enhancedScopes": [
     "source.scala"
   ],
