@@ -1,7 +1,7 @@
 {
   "name": "atom-sbt-client",
   "main": "./lib/main",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Atom IDE plugin for the sbt server",
   "keywords": [
     "scala",
