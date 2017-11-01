@@ -18,7 +18,7 @@
     "source.scala"
   ],
   "dependencies": {
-    "atom-languageclient": "github:atom/atom-languageclient"
+    "atom-languageclient": "0.6.7"
   },
   "consumedServices": {
     "linter-indie": {
