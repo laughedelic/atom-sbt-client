@@ -2,14 +2,22 @@
   "name": "atom-sbt-client",
   "main": "./lib/main",
   "version": "0.0.0",
-  "description": "Atom IDE plugin for the sbt server",
+  "description": "Atom IDE plugin for the sbt language server",
+  "author": {
+    "name" : "Alexey Alekhin",
+    "email" : "laughedelic@gmail.com",
+    "url" : "https://github.com/laughedelic"
+  },
   "keywords": [
+    "build",
     "scala",
     "sbt",
-    "lsp",
-    "ide"
+    "ide",
+    "language-server",
+    "language-server-protocol"
   ],
   "repository": "https://github.com/laughedelic/atom-sbt-client",
+  "bugs": "https://github.com/laughedelic/atom-sbt-client/issues",
   "license": "LGPL-3.0+",
   "engines": {
     "atom": ">=1.21.0 <2.0.0"
