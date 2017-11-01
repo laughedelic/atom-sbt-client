@@ -1,12 +1,12 @@
 {
   "name": "atom-sbt-client",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Atom IDE plugin for the sbt language server",
   "author": {
-    "name" : "Alexey Alekhin",
-    "email" : "laughedelic@gmail.com",
-    "url" : "https://github.com/laughedelic"
+    "name": "Alexey Alekhin",
+    "email": "laughedelic@gmail.com",
+    "url": "https://github.com/laughedelic"
   },
   "keywords": [
     "build",
