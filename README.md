@@ -1,5 +1,9 @@
 # Atom sbt client
 
+[![](https://img.shields.io/github/release/laughedelic/atom-sbt-client/all.svg)](https://github.com/laughedelic/atom-sbt-client/releases/latest)
+[![](https://img.shields.io/badge/license-LGPLv3-blue.svg)](https://www.tldrlegal.com/l/lgpl-3.0)
+[![](https://img.shields.io/badge/contact-gitter_chat-dd1054.svg)](https://gitter.im/laughedelic/atom-sbt-client)
+
 This is an Atom plugin integrating [sbt server](http://www.scala-sbt.org/1.x-beta/docs/sbt-server.html) with the [Atom IDE](https://ide.atom.io) interface.
 
 It connects to a running sbt instance and communicates with it using [Language Server Protocol](https://github.com/Microsoft/language-server-protocol). Atom sends event notifications to sbt (like `didSave`), in response sbt recompiles the project and sends back information about warnings and errors which are displayed in Atom:
