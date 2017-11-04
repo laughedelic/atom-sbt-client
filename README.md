@@ -8,7 +8,7 @@ This is an Atom plugin integrating [sbt server](http://www.scala-sbt.org/1.x-bet
 
 It connects to a running sbt instance and communicates with it using [Language Server Protocol](https://github.com/Microsoft/language-server-protocol). Atom sends event notifications to sbt (like `didSave`), in response sbt recompiles the project and sends back information about warnings and errors which are displayed in Atom:
 
-<img width="350" src="https://user-images.githubusercontent.com/766656/32253926-f3c76a6c-be9d-11e7-98c6-97c3af985520.png">
+<img src="https://user-images.githubusercontent.com/766656/32409435-015c59b0-c1ac-11e7-9de7-c3c45ae5e44e.png">
 
 ## Notes
 
