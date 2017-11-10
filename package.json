@@ -34,5 +34,17 @@
         "2.0.0": "consumeLinterV2"
       }
     }
+  },
+  "providedServices": {
+    "definitions": {
+      "versions": {
+        "0.1.0": "provideDefinitions"
+      }
+    },
+    "hyperclick": {
+      "versions": {
+        "0.1.0": "provideHyperclick"
+      }
+    }
   }
 }
