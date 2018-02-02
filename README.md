@@ -33,3 +33,11 @@ It should trigger compilation and if there are any errors, you should see them i
 Another feature is jump-to-definition, which works for _some_ types in the project.
 
 Note that despite the debug logging in the sbt shell, you can still use it directly. It's just a normal sbt shell which additionally communicates with Atom.
+
+## Related links
+
+* sbt server support in other editors:
+    + [VS Code](https://developer.lightbend.com/blog/2017-11-30-sbt-1-1-0-RC1-sbt-server/#vs-code-extension)
+    + [Sublime Text 3](http://eed3si9n.com/sbt-server-with-sublime-text3)
+    + [Neovim](http://eed3si9n.com/sbt-server-with-neovim)
+* [atom-ide-scala](https://github.com/laughedelic/atom-ide-scala) is a similar plugin integrating Atom IDE UI with the [metals](https://github.com/scalameta/metals) language server
