@@ -1,7 +1,7 @@
 # Atom sbt client
 
 [![](https://img.shields.io/github/release/laughedelic/atom-sbt-client/all.svg)](https://github.com/laughedelic/atom-sbt-client/releases/latest)
-[![](https://img.shields.io/badge/license-LGPLv3-blue.svg)](https://www.tldrlegal.com/l/lgpl-3.0)
+[![](https://img.shields.io/badge/license-MPL--2.0-blue.svg)](https://www.tldrlegal.com/l/mpl-2.0)
 [![](https://img.shields.io/badge/contact-gitter_chat-dd1054.svg)](https://gitter.im/laughedelic/atom-sbt-client)
 
 This is an Atom plugin integrating [sbt server](http://www.scala-sbt.org/1.x-beta/docs/sbt-server.html) with the [Atom IDE](https://ide.atom.io) interface.
