@@ -29,16 +29,16 @@
     "atom-languageclient": "0.8.2",
     "atom-package-deps": "4.6.1"
   },
-  "package-deps" : [ "language-scala", "atom-ide-ui" ],
+  "package-deps": [ "language-scala", "atom-ide-ui" ],
   "consumedServices": {
     "linter-indie": {
       "versions": {
         "2.0.0": "consumeLinterV2"
       }
     },
-    "atom-ide-busy-signal" : {
-      "versions" : {
-        "0.1.0" : "consumeBusySignal"
+    "atom-ide-busy-signal": {
+      "versions": {
+        "0.1.0": "consumeBusySignal"
       }
     }
   },
