@@ -1,7 +1,7 @@
 {
   "name": "atom-sbt-client",
   "main": "./lib/main",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "sbt server support for Atom IDE",
   "author": {
     "name": "Alexey Alekhin",
@@ -29,7 +29,10 @@
     "atom-languageclient": "0.8.2",
     "atom-package-deps": "4.6.1"
   },
-  "package-deps": [ "language-scala", "atom-ide-ui" ],
+  "package-deps": [
+    "language-scala",
+    "atom-ide-ui"
+  ],
   "consumedServices": {
     "linter-indie": {
       "versions": {
