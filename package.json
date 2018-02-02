@@ -1,7 +1,7 @@
 {
   "name": "atom-sbt-client",
   "main": "./lib/main",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Atom IDE plugin for the sbt language server",
   "author": {
     "name": "Alexey Alekhin",
@@ -26,12 +26,29 @@
     "source.scala"
   ],
   "dependencies": {
-    "atom-languageclient": "0.6.7"
+    "atom-languageclient": "0.8.2"
   },
   "consumedServices": {
     "linter-indie": {
       "versions": {
         "2.0.0": "consumeLinterV2"
+      }
+    },
+    "atom-ide-busy-signal" : {
+      "versions" : {
+        "0.1.0" : "consumeBusySignal"
+      }
+    }
+  },
+  "providedServices" : {
+    "definitions" : {
+      "versions" : {
+        "0.1.0" : "provideDefinitions"
+      }
+    },
+    "hyperclick" : {
+      "versions" : {
+        "0.1.0" : "provideHyperclick"
       }
     }
   },
