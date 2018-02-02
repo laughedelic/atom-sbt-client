@@ -12,10 +12,16 @@ It connects to a running sbt instance and communicates with it using [Language S
 
 ## Installation
 
-You will also need the Atom IDE UI plugin. You can install both with
+You can install it using Atom interface or by running this command:
+
 ```
-apm install language-scala atom-ide-ui atom-sbt-client
+apm install atom-sbt-client
 ```
+
+On the first launch it will automatically install its dependencies if needed:
++ [language-scala](https://github.com/atom-community/language-scala) for basic Scala syntax highlighting
++ [atom-ide-ui](https://github.com/facebook-atom/atom-ide-ui) for the Atom IDE interface
+
 
 ## Usage
 
@@ -23,5 +29,7 @@ apm install language-scala atom-ide-ui atom-sbt-client
 2. Open this project in Atom, open any Scala file and save it.
 
 It should trigger compilation and if there are any errors, you should see them in the gutter and in the diagnostics panel.
+
+Another feature is jump-to-definition, which works for _some_ types in the project.
 
 Note that despite the debug logging in the sbt shell, you can still use it directly. It's just a normal sbt shell which additionally communicates with Atom.
